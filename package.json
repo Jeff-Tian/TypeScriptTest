@@ -1,0 +1,25 @@
+{
+  "name": "typescripttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Tian/TypeScriptTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeff-Tian/TypeScriptTest/issues"
+  },
+  "homepage": "https://github.com/Jeff-Tian/TypeScriptTest#readme",
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}
